@@ -9,8 +9,8 @@ jobs:
     name: Test hello_world
     runs-on: ubuntu-latest
     steps:
-      name: Run
-      uses: actions/checkout@v4
+      - name: Run
+      - uses: actions/checkout@v4
       run: |
         sh helloW.sh
         exit 1
